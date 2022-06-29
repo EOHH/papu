@@ -1,0 +1,75 @@
+/*screen: pantalla, que el tipo de contenido sea la pantalla y aninado con un estilo hasta que este en su ancho width */
+
+@media (min-width:1200px){
+    body{
+        background-color: rgb(237, 42, 32);
+    }
+#parrafo1{
+    width: 33%;
+    float: left;
+}
+#parrafo2{
+    width: 33%;
+    float: left;
+}
+#parrafo3{
+    width: 33%;
+    float: left;
+}   
+}
+
+
+
+
+@media (min-width:601px) and (max-width:1200px){
+    body{
+        background-color: rgb(32, 186, 237);
+    }
+#parrafo1{
+    width: 30%;
+    float: left;
+}
+#parrafo2{
+    width: 50%;
+    float: left;
+}
+#parrafo3{
+    width: 50%;
+    float: left;
+}
+}
+
+
+@media screen  and (max-width:600px){
+    body{
+        background-color: rgb(207, 237, 32);
+    }
+#parrafo1{
+    width: 100;
+}
+#parrafo2{
+    width: 100;
+}
+#parrafo3{
+    width: 100;
+}
+}
+
+#parrafo2 ul li{
+    color: blue;
+}
+#parrafo2 ul li strong{
+    color: rgb(12, 12, 12);
+}
+
+#parrafo3 ul li{
+    color: blue;
+}
+#parrafo3 ul li strong{
+    color: rgb(12, 12, 12);
+}
+
+.container{
+    margin: 10px;
+    padding: 10px;
+}
